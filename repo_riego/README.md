@@ -96,16 +96,4 @@ El umbral `humedadSeca = 2500` (lectura ADC de 0–4095 en ESP32) **debe calibra
 - ✅ Lógica de riego automático con doble verificación (evaluación + revisión post-riego).
 - ✅ Protección contra funcionamiento en seco (bloqueo por tanque vacío).
 - ✅ Interfaz LCD con animaciones de estado.
-- 🚧 **Conectividad IoT pendiente**: la versión actual opera de forma completamente local (sin WiFi/MQTT/nube). El nombre del proyecto anticipa funcionalidad IoT que aún no está implementada en este sketch.
 
-### Posibles mejoras futuras
-
-- Conectividad WiFi para monitoreo y control remoto (por ejemplo, vía MQTT o un dashboard web/app).
-- Registro histórico de riegos y lecturas (almacenamiento local o en la nube).
-- Notificaciones (tanque vacío, riego completado) vía Telegram/correo/push.
-- Múltiples zonas de riego con sensores independientes.
-- Programación de horarios de riego configurables remotamente.
-
-## Licencia
-
-Este proyecto no especifica una licencia. Si deseas que el código sea reutilizable por terceros, considera añadir una licencia (por ejemplo, [MIT](https://choosealicense.com/licenses/mit/)).
